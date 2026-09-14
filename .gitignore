@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# env - JANGAN PERNAH commit kunci Supabase / rahasia sesi
+.env*.local
+.env
+
+# data migrasi - bisa berisi data pribadi/rahasia (nama, alamat, password sementara)
+/data/*.csv
+/data/password-sementara-HAPUS-SETELAH-DIPAKAI.txt
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel/netlify
+.vercel
+.netlify

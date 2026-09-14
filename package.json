@@ -1,0 +1,24 @@
+{
+  "name": "surat-keluar-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "migrasi": "node scripts/migrasi-data.mjs",
+    "migrasi:commit": "node scripts/migrasi-data.mjs --commit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.12",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "csv-parse": "^7.0.2",
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,8 @@
+# Konfigurasi deploy ke Netlify. Netlify mendeteksi proyek Next.js secara
+# otomatis dan memasang plugin runtime-nya sendiri - file ini hanya
+# memastikan perintah build & versi Node-nya konsisten.
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
